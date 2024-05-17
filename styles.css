@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: radial-gradient(circle at 50% 50%, rgba(164, 40, 40, 0.05) 0%, rgba(131, 125, 204, 0) 100%);
+    background-image: radial-gradient(circle at 50% 50%, rgba(255, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 .container {
@@ -19,12 +19,11 @@ body {
 .form-wrapper {
     background-color: #2a2a2a;
     border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.5);
     padding: 40px;
     position: relative;
     overflow: hidden;
 }
-
 .form-wrapper::before {
     content: "";
     position: absolute;
@@ -41,7 +40,7 @@ body {
     color: #fff;
     text-align: center;
     margin-bottom: 30px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 10px 0px 30px rgba(129, 57, 57, 0.5);
 }
 
 .form-group {
