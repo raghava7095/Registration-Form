@@ -19,7 +19,7 @@ body {
 .form-wrapper {
     background-color: #2a2a2a;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.5);
     padding: 40px;
     position: relative;
     overflow: hidden;
